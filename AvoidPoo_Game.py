@@ -102,5 +102,6 @@ while running:
     pygame.display.update() 
 
 
-# pygame 종료
+# pygame 대기 후 종료
+pygame.time.delay(1000)
 pygame.quit()
