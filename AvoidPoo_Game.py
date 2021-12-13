@@ -20,10 +20,10 @@ clock = pygame.time.Clock()
 # 1. 사용자 게임 초기화 (배경 화면, 게임 이미지. 좌표, 속도, 폰트 등)
 
 # 배경 만들기
-background = pygame.image.load("Pygame\Pygame_AvoidPoo\img\white.png")
+background = pygame.image.load("img\white.png")
 
 # 캐릭터 만들기
-character = pygame.image.load("Pygame\Pygame_AvoidPoo\img\man.png")
+character = pygame.image.load("img\man.png")
 character_size = character.get_rect().size
 character_width = character_size[0] 
 character_height = character_size[1] 
@@ -35,7 +35,7 @@ to_x = 0
 character_speed = 10
 
 # 똥 만들기
-poo = pygame.image.load("Pygame\Pygame_AvoidPoo\img\poo.png")
+poo = pygame.image.load("img\poo.png")
 poo_size = poo.get_rect().size
 poo_width = poo_size[0] 
 poo_height = poo_size[1] 
